@@ -1,0 +1,38 @@
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.firstpartcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.seatingcontainer{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 5%;
+    
+}
+.bench{
+    height: 50px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4%;
+}
+.selectedcontainer{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seat{
+    height: 80%;
+    width: 10%;
+    background-color: white;
+}
